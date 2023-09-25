@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "https://mybatis.org/dtd/mybatis-3-config.dtd">
+
+<configuration>
+	<!-- <typeAliases>
+		<typeAlias type="kr.ac.kopo.bookstore.model.Book" alias="Book"/>
+		주로 model에다가 만들어줌
+		<typeAlias type="kr.ac.kopo.bookstore.model.Customer" alias="Customer"/>
+		root context처럼 오류가 나면 빨간 줄이 나면 좋은데 여기는 그런 게 없어서 오류가 나면 알 수 없음
+		
+		<typeAlias type="kr.ac.kopo.bookstore.model.Orders" alias="Orders"/>
+		<typeAlias type="kr.ac.kopo.bookstore.model.Detail" alias="Detail"/>
+	</typeAliases>
+	
+	<mappers>
+		<mapper resource="mybatis/book.xml"/>
+		<mapper resource="mybatis/customer.xml"/>
+		<mapper resource="mybatis/orders.xml"/>
+	</mappers> -->
+	
+	
+	
+	
+	
+	
+	<settings>
+	<setting name="mapUnderscoreToCamelCase" value="true"/>
+	</settings>
+	
+</configuration>
