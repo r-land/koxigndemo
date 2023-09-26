@@ -31,8 +31,8 @@ public class ApiController {
 		return path + "issue";
 	}
 	@PostMapping("/issue")
-	String add(Book item) {
-		service.add(item);
+	String issue(Api item) {
+		service.issue(item);
 		
 		return "redirect:info";
 	}
